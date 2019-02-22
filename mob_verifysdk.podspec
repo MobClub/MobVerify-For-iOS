@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   	s.platform              = :ios
   	s.ios.deployment_target = "8.0"
 
-	s.frameworks          = "AdSupport", "AddressBook.framework", "SystemConfiguration.framework", "CoreTelephony.framework"
+	s.frameworks          = "AdSupport.framework", "AddressBook.framework", "SystemConfiguration.framework", "CoreTelephony.framework"
 	s.libraries           = "icucore", "z", "c++"
 
 	s.vendored_frameworks = 'SDK/MobVerify/MobVerify.framework',
