@@ -1,0 +1,36 @@
+//
+//  MobVerifyUIPrefixHeader.pch
+//  MobVerifyUI
+//
+//  Created by hower on 2018/12/28.
+//  Copyright © 2018年 mob. All rights reserved.
+//
+
+#ifndef MobVerifyUIPrefixHeader_pch
+#define MobVerifyUIPrefixHeader_pch
+
+#import <UIKit/UIKit.h>
+#import "MobVerifyUIConfigs.h"
+#import <MobVerify/MobVerify.h>
+#import <MOBFoundation/MOBFoundation.h>
+
+#define MobVerifyUIBundle [[NSBundle alloc] initWithPath:[[NSBundle mainBundle] pathForResource:@"MobVerifyUI" ofType:@"bundle"]]
+
+#define MobVerifyUILocalized(_S_) NSLocalizedStringFromTableInBundle((_S_), @"Localizable", MobVerifyUIBundle, nil)
+
+#define MobVerifyUILog(s, ...) NSLog(@"\n\n---------------------------------------------------\n %s[line:%d] \n %@ \n---------------------------------------------------\n", __FUNCTION__, __LINE__, [NSString stringWithFormat:(s), ##__VA_ARGS__])
+
+
+#define MobVerifyUIStatusHeight [UIApplication sharedApplication].statusBarFrame.size.height
+
+
+#define MobVeriryBtnBgColor [UIColor colorWithRed:98/255.0 green:148/255.0 blue:247/255.0 alpha:1]
+
+#define MobVeriryDesColor [UIColor colorWithRed:234/255.0 green:112/255.0 blue:46/255.0 alpha:1]
+
+#define MobVeriryDesGrayColor [UIColor colorWithRed:0 green:0 blue:0 alpha:0.4]
+
+
+typedef void(^MobVerifyUICommonResult)(NSError *error);
+
+#endif /* MobVerifyUIPrefixHeader_pch */

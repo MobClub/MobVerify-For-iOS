@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		8D02C8DB21D5C2D700E08A5A /* createMobVerifyUI */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 8D02C8DE21D5C2D700E08A5A /* Build configuration list for PBXAggregateTarget "createMobVerifyUI" */;
+			buildPhases = (
+				8D02C8DF21D5C2E600E08A5A /* ShellScript */,
+			);
+			dependencies = (
+				8DCE1CEE21F706F700936DFF /* PBXTargetDependency */,
+			);
+			name = createMobVerifyUI;
+			productName = createMobVerifyUI;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		8D0CE92C21D5FB6700B636F0 /* MobVerifyUIVerifyViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D0CE92621D5FB6700B636F0 /* MobVerifyUIVerifyViewController.h */; };
+		8D0CE92D21D5FB6700B636F0 /* MobVerifyUIVerifyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0CE92721D5FB6700B636F0 /* MobVerifyUIVerifyViewController.m */; };
+		8D0CE92E21D5FB6700B636F0 /* MobVerifyUIVerifyResultViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D0CE92821D5FB6700B636F0 /* MobVerifyUIVerifyResultViewController.h */; };
+		8D0CE92F21D5FB6700B636F0 /* MobVerifyUIVerifyResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0CE92921D5FB6700B636F0 /* MobVerifyUIVerifyResultViewController.m */; };
+		8D0CE93021D5FB6700B636F0 /* MobVerifyUICodeVerifyViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D0CE92A21D5FB6700B636F0 /* MobVerifyUICodeVerifyViewController.h */; };
+		8D0CE93121D5FB6700B636F0 /* MobVerifyUICodeVerifyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0CE92B21D5FB6700B636F0 /* MobVerifyUICodeVerifyViewController.m */; };
+		8D0CE93621D5FB7800B636F0 /* MobVerifyUIBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D0CE93221D5FB7800B636F0 /* MobVerifyUIBaseViewController.h */; };
+		8D0CE93721D5FB7800B636F0 /* MobVerifyUIBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0CE93321D5FB7800B636F0 /* MobVerifyUIBaseViewController.m */; };
+		8D0CE93821D5FB7800B636F0 /* MobVerifyUIProcessHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D0CE93421D5FB7800B636F0 /* MobVerifyUIProcessHUD.h */; };
+		8D0CE93921D5FB7800B636F0 /* MobVerifyUIProcessHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0CE93521D5FB7800B636F0 /* MobVerifyUIProcessHUD.m */; };
+		8D0CE93E21D5FB8000B636F0 /* MobVerifyUIContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D0CE93A21D5FB8000B636F0 /* MobVerifyUIContext.h */; };
+		8D0CE93F21D5FB8000B636F0 /* MobVerifyUIContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0CE93B21D5FB8000B636F0 /* MobVerifyUIContext.m */; };
+		8D0CE94021D5FB8000B636F0 /* MobVerifyUIConfigs.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D0CE93C21D5FB8000B636F0 /* MobVerifyUIConfigs.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D0CE94121D5FB8000B636F0 /* MobVerifyUIConfigs.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0CE93D21D5FB8000B636F0 /* MobVerifyUIConfigs.m */; };
+		8D69A7C121D5C47C00C723F6 /* MobVerifyUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D69A7BF21D5C47C00C723F6 /* MobVerifyUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D69A7C221D5C47C00C723F6 /* MobVerifyUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D69A7C021D5C47C00C723F6 /* MobVerifyUI.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8DCE1CED21F706F700936DFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DB3B18821D5C19300002935 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DB3B18F21D5C19300002935;
+			remoteInfo = MobVerifyUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8D0CE92621D5FB6700B636F0 /* MobVerifyUIVerifyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobVerifyUIVerifyViewController.h; sourceTree = "<group>"; };
+		8D0CE92721D5FB6700B636F0 /* MobVerifyUIVerifyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MobVerifyUIVerifyViewController.m; sourceTree = "<group>"; usesTabs = 1; };
+		8D0CE92821D5FB6700B636F0 /* MobVerifyUIVerifyResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobVerifyUIVerifyResultViewController.h; sourceTree = "<group>"; };
+		8D0CE92921D5FB6700B636F0 /* MobVerifyUIVerifyResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MobVerifyUIVerifyResultViewController.m; sourceTree = "<group>"; };
+		8D0CE92A21D5FB6700B636F0 /* MobVerifyUICodeVerifyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobVerifyUICodeVerifyViewController.h; sourceTree = "<group>"; };
+		8D0CE92B21D5FB6700B636F0 /* MobVerifyUICodeVerifyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MobVerifyUICodeVerifyViewController.m; sourceTree = "<group>"; };
+		8D0CE93221D5FB7800B636F0 /* MobVerifyUIBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobVerifyUIBaseViewController.h; sourceTree = "<group>"; };
+		8D0CE93321D5FB7800B636F0 /* MobVerifyUIBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MobVerifyUIBaseViewController.m; sourceTree = "<group>"; };
+		8D0CE93421D5FB7800B636F0 /* MobVerifyUIProcessHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobVerifyUIProcessHUD.h; sourceTree = "<group>"; };
+		8D0CE93521D5FB7800B636F0 /* MobVerifyUIProcessHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MobVerifyUIProcessHUD.m; sourceTree = "<group>"; };
+		8D0CE93A21D5FB8000B636F0 /* MobVerifyUIContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobVerifyUIContext.h; sourceTree = "<group>"; };
+		8D0CE93B21D5FB8000B636F0 /* MobVerifyUIContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MobVerifyUIContext.m; sourceTree = "<group>"; };
+		8D0CE93C21D5FB8000B636F0 /* MobVerifyUIConfigs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobVerifyUIConfigs.h; sourceTree = "<group>"; };
+		8D0CE93D21D5FB8000B636F0 /* MobVerifyUIConfigs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MobVerifyUIConfigs.m; sourceTree = "<group>"; };
+		8D0CE94221D5FBB100B636F0 /* MobVerifyUIPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MobVerifyUIPrefixHeader.pch; sourceTree = "<group>"; };
+		8D69A7BF21D5C47C00C723F6 /* MobVerifyUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobVerifyUI.h; sourceTree = "<group>"; };
+		8D69A7C021D5C47C00C723F6 /* MobVerifyUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MobVerifyUI.m; sourceTree = "<group>"; };
+		8DB3B19021D5C19300002935 /* MobVerifyUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobVerifyUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DB3B19321D5C19300002935 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DB3B18D21D5C19300002935 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D0CE92521D5FB5800B636F0 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				8D0CE93221D5FB7800B636F0 /* MobVerifyUIBaseViewController.h */,
+				8D0CE93321D5FB7800B636F0 /* MobVerifyUIBaseViewController.m */,
+				8D0CE93421D5FB7800B636F0 /* MobVerifyUIProcessHUD.h */,
+				8D0CE93521D5FB7800B636F0 /* MobVerifyUIProcessHUD.m */,
+				8D0CE92621D5FB6700B636F0 /* MobVerifyUIVerifyViewController.h */,
+				8D0CE92721D5FB6700B636F0 /* MobVerifyUIVerifyViewController.m */,
+				8D0CE92821D5FB6700B636F0 /* MobVerifyUIVerifyResultViewController.h */,
+				8D0CE92921D5FB6700B636F0 /* MobVerifyUIVerifyResultViewController.m */,
+				8D0CE92A21D5FB6700B636F0 /* MobVerifyUICodeVerifyViewController.h */,
+				8D0CE92B21D5FB6700B636F0 /* MobVerifyUICodeVerifyViewController.m */,
+			);
+			name = VC;
+			sourceTree = "<group>";
+		};
+		8DB3B18721D5C19300002935 = {
+			isa = PBXGroup;
+			children = (
+				8DB3B19221D5C19300002935 /* MobVerifyUI */,
+				8DB3B19121D5C19300002935 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8DB3B19121D5C19300002935 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DB3B19021D5C19300002935 /* MobVerifyUI.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8DB3B19221D5C19300002935 /* MobVerifyUI */ = {
+			isa = PBXGroup;
+			children = (
+				8D0CE92521D5FB5800B636F0 /* VC */,
+				8D0CE93A21D5FB8000B636F0 /* MobVerifyUIContext.h */,
+				8D0CE93B21D5FB8000B636F0 /* MobVerifyUIContext.m */,
+				8D0CE93C21D5FB8000B636F0 /* MobVerifyUIConfigs.h */,
+				8D0CE93D21D5FB8000B636F0 /* MobVerifyUIConfigs.m */,
+				8D69A7BF21D5C47C00C723F6 /* MobVerifyUI.h */,
+				8D69A7C021D5C47C00C723F6 /* MobVerifyUI.m */,
+				8DB3B19321D5C19300002935 /* Info.plist */,
+				8D0CE94221D5FBB100B636F0 /* MobVerifyUIPrefixHeader.pch */,
+			);
+			path = MobVerifyUI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8D69A7BD21D5C42600C723F6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D0CE94021D5FB8000B636F0 /* MobVerifyUIConfigs.h in Headers */,
+				8D0CE93E21D5FB8000B636F0 /* MobVerifyUIContext.h in Headers */,
+				8D69A7C121D5C47C00C723F6 /* MobVerifyUI.h in Headers */,
+				8D0CE93821D5FB7800B636F0 /* MobVerifyUIProcessHUD.h in Headers */,
+				8D0CE92C21D5FB6700B636F0 /* MobVerifyUIVerifyViewController.h in Headers */,
+				8D0CE93021D5FB6700B636F0 /* MobVerifyUICodeVerifyViewController.h in Headers */,
+				8D0CE92E21D5FB6700B636F0 /* MobVerifyUIVerifyResultViewController.h in Headers */,
+				8D0CE93621D5FB7800B636F0 /* MobVerifyUIBaseViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8DB3B18F21D5C19300002935 /* MobVerifyUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DB3B19621D5C19300002935 /* Build configuration list for PBXNativeTarget "MobVerifyUI" */;
+			buildPhases = (
+				8D69A7BD21D5C42600C723F6 /* Headers */,
+				8DB3B18C21D5C19300002935 /* Sources */,
+				8DB3B18D21D5C19300002935 /* Frameworks */,
+				8DB3B18E21D5C19300002935 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MobVerifyUI;
+			productName = MobVerifyUI;
+			productReference = 8DB3B19021D5C19300002935 /* MobVerifyUI.framework */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8DB3B18821D5C19300002935 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = mob;
+				TargetAttributes = {
+					8D02C8DB21D5C2D700E08A5A = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					8DB3B18F21D5C19300002935 = {
+						CreatedOnToolsVersion = 7.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8DB3B18B21D5C19300002935 /* Build configuration list for PBXProject "MobVerifyUI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8DB3B18721D5C19300002935;
+			productRefGroup = 8DB3B19121D5C19300002935 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DB3B18F21D5C19300002935 /* MobVerifyUI */,
+				8D02C8DB21D5C2D700E08A5A /* createMobVerifyUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DB3B18E21D5C19300002935 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8D02C8DF21D5C2E600E08A5A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Sets the target folders and the final framework product.\nFMK_NAME=${PROJECT_NAME}\n\n# Install dir will be the final output to the framework.\n# The following line create it in the root folder of the current project.\nINSTALL_BASE_DIR=${SRCROOT}/../SDK/MobVerifyUI\nINSTALL_DIR=${INSTALL_BASE_DIR}/${FMK_NAME}.framework\n\n# Working dir will be deleted after the framework creation.\nWRK_DIR=build\nDEVICE_DIR=${WRK_DIR}/Release-iphoneos/${FMK_NAME}.framework\nSIMULATOR_DIR=${WRK_DIR}/Release-iphonesimulator/${FMK_NAME}.framework\n\n# -configuration ${CONFIGURATION}\n# Clean and Building both architectures.\nxcodebuild BITCODE_GENERATION_MODE=bitcode OTHER_CFLAGS=\"-fembed-bitcode\" -arch \"armv7s\" -arch \"armv7\" -arch \"arm64\" -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphoneos clean build\nxcodebuild BITCODE_GENERATION_MODE=bitcode OTHER_CFLAGS=\"-fembed-bitcode\" -arch \"i386\" -arch \"x86_64\" -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphonesimulator clean build\n\n# Cleaning the oldest.\nif [ -d \"${INSTALL_DIR}\" ]\nthen\nrm -rf \"${INSTALL_DIR}\"\nfi\n\nmkdir -p \"${INSTALL_DIR}\"\n\ncp -R \"${DEVICE_DIR}/\" \"${INSTALL_DIR}/\"\n\n# Uses the Lipo Tool to merge both binary files (i386 + armv6/armv7) into one Universal final product.\nlipo -create \"${DEVICE_DIR}/${FMK_NAME}\" \"${SIMULATOR_DIR}/${FMK_NAME}\" -output \"${INSTALL_DIR}/${FMK_NAME}\"\n\n#rm -r \"${WRK_DIR}\"\necho \"${WRK_DIR}\"\n\n# Open product dir\nopen \"${INSTALL_BASE_DIR}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DB3B18C21D5C19300002935 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D0CE92D21D5FB6700B636F0 /* MobVerifyUIVerifyViewController.m in Sources */,
+				8D69A7C221D5C47C00C723F6 /* MobVerifyUI.m in Sources */,
+				8D0CE92F21D5FB6700B636F0 /* MobVerifyUIVerifyResultViewController.m in Sources */,
+				8D0CE93F21D5FB8000B636F0 /* MobVerifyUIContext.m in Sources */,
+				8D0CE94121D5FB8000B636F0 /* MobVerifyUIConfigs.m in Sources */,
+				8D0CE93121D5FB6700B636F0 /* MobVerifyUICodeVerifyViewController.m in Sources */,
+				8D0CE93921D5FB7800B636F0 /* MobVerifyUIProcessHUD.m in Sources */,
+				8D0CE93721D5FB7800B636F0 /* MobVerifyUIBaseViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8DCE1CEE21F706F700936DFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DB3B18F21D5C19300002935 /* MobVerifyUI */;
+			targetProxy = 8DCE1CED21F706F700936DFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8D02C8DC21D5C2D700E08A5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8D02C8DD21D5C2D700E08A5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8DB3B19421D5C19300002935 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8DB3B19521D5C19300002935 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8DB3B19721D5C19300002935 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/../SDK\"/**";
+				GCC_PREFIX_HEADER = MobVerifyUI/MobVerifyUIPrefixHeader.pch;
+				INFOPLIST_FILE = MobVerifyUI/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
+				OTHER_CFLAGS = "-fembed-bitcode";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mob.MobVerifyUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		8DB3B19821D5C19300002935 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/../SDK\"/**";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PREFIX_HEADER = MobVerifyUI/MobVerifyUIPrefixHeader.pch;
+				INFOPLIST_FILE = MobVerifyUI/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
+				OTHER_CFLAGS = "-fembed-bitcode";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mob.MobVerifyUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D02C8DE21D5C2D700E08A5A /* Build configuration list for PBXAggregateTarget "createMobVerifyUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D02C8DC21D5C2D700E08A5A /* Debug */,
+				8D02C8DD21D5C2D700E08A5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DB3B18B21D5C19300002935 /* Build configuration list for PBXProject "MobVerifyUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DB3B19421D5C19300002935 /* Debug */,
+				8DB3B19521D5C19300002935 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DB3B19621D5C19300002935 /* Build configuration list for PBXNativeTarget "MobVerifyUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DB3B19721D5C19300002935 /* Debug */,
+				8DB3B19821D5C19300002935 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8DB3B18821D5C19300002935 /* Project object */;
+}
