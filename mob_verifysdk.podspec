@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 	s.name                = "mob_verifysdk"
-	s.version             = "1.0.0"
+	s.version             = "0.0.1"
 	s.summary             = '云验证，秒登录，秒验证'
 	s.license             = 'Copyright © 2018-2028 mob.com'
 	s.author              = { "mob" => "mobproducts@163.com" }
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   	s.platform              = :ios
   	s.ios.deployment_target = "8.0"
 
-	s.frameworks          = "AdSupport.framework", "AddressBook.framework", "SystemConfiguration.framework", "CoreTelephony.framework"
+	s.frameworks          = "AdSupport", "AddressBook", "SystemConfiguration", "CoreTelephony"
 	s.libraries           = "icucore", "z", "c++"
 
 	s.vendored_frameworks = 'SDK/MobVerify/MobVerify.framework',
