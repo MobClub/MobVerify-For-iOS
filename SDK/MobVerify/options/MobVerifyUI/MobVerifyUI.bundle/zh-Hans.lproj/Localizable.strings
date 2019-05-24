@@ -1,0 +1,21 @@
+/* 
+  Localizable.strings
+  SMS_SDKDemo
+
+  Created by 掌淘科技 on 14-9-26.
+  Copyright (c) 2014年 掌淘科技. All rights reserved.
+*/
+
+"title"="登录/注册";
+"myphone"="本地号码";
+"mytelfield"="请输入本机号码";
+"carddes"="*双卡手机默认流量卡号码为本机号码";
+"authsucess"="认证成功";
+"authfail"="认证失败";
+"jumptohome"="跳转到登录后的首页";
+"backhome"="返回首页";
+"authfaildes"="自动认证失败，请输入验证码";
+"verifycode"="请输入验证码";
+"Code" = "验证码";
+"rootViewControllererror" = "rootViewController 错误";
+

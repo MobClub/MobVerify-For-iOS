@@ -30,5 +30,7 @@ typedef void(^MobVerifyUIVerifyResult)(NSError *error);
  */
 + (void) verifyWithConfig:(MobVerifyUIConfig *)config result:(MobVerifyUIVerifyResult)result;
 
+
+
 @end
 
