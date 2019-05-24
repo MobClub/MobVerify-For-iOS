@@ -19,4 +19,9 @@ typedef void(^MobVerifyVerifyResult)(NSError *error);
  */
 typedef void(^MobVerifyCodeVerifyResult)(NSError *error);
 
+/**
+ * @brief 一键登录结果回调(Results of the Login)
+ */
+typedef void(^MobVerifyLoginResult)(NSDictionary *resultData, NSError *error);
+
 #endif /* MobVerifyDefine_h */

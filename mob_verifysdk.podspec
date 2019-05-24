@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 	s.name                = "mob_verifysdk"
-	s.version             = "1.0.0"
+	s.version             = "1.0.1"
 	s.summary             = '云验证，秒登录，秒验证'
 	s.license             = 'Copyright © 2018-2028 mob.com'
 	s.author              = { "mob" => "mobproducts@163.com" }
@@ -14,14 +14,16 @@ Pod::Spec.new do |s|
 	s.libraries           = "icucore", "z", "c++"
 
 	s.vendored_frameworks = 'SDK/MobVerify/MobVerify.framework',
-							'SDK/Required/account_verify_sdk_core.framework',
-							'SDK/Required/EAccountSDKNetwork.framework',
-							'SDK/Required/TYRZNoUISDK.framework'
+							'SDK/MobVerify/options/account_verify_sdk_core.framework',
+							'SDK/MobVerify/options/EAccountSDKNetwork.framework',
+							'SDK/MobVerify/options/TYRZNoUISDK.framework'
 
 	s.xcconfig  		  =  {'OTHER_LDFLAGS' => '-ObjC' }
 
 	s.dependency 'MOBFoundation'
 	s.dependency 'mob_smssdk'
+
+    s.resources = 'SDK/MobVerify/MobVerify.bundle'
 
 
 end

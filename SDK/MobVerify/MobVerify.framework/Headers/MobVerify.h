@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "MobVerifyDefine.h"
-
+#import "MobVerifyConfig.h"
 
 /**
  * @brief 验证类（Verify class）v1.0.0
@@ -53,4 +53,14 @@
  */
 + (NSString *) sdkVersion;
 
+/**
+ *  @from                    v1.1.0
+ *  @brief                   一键登录(Login)
+ *
+ *  @param config            配置信息
+ *  @param tmpCode           模板号(短信使用,非必须)
+ *  @param result            验证结果回调(Results of the Login)
+ */
++ (void) loginWithConfig:(MobVerifyConfig *)config
+                  result:(MobVerifyLoginResult)result;
 @end

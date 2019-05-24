@@ -1,9 +1,9 @@
 
-/* Class = "UIButton"; normalTitle = "重要操作二次验证"; ObjectID = "kST-4h-di2"; */
-"kST-4h-di2.normalTitle" = "重要操作二次验证";
+/* Class = "UIButton"; normalTitle = "本手机号验证"; ObjectID = "kST-4h-di2"; */
+"kST-4h-di2.normalTitle" = "本手机号验证";
 
-/* Class = "UIButton"; normalTitle = "本机号码登录/注册"; ObjectID = "oqd-QI-37Z"; */
-"oqd-QI-37Z.normalTitle" = "本机号码登录/注册";
+/* Class = "UIButton"; normalTitle = "一键登录"; ObjectID = "oqd-QI-37Z"; */
+"oqd-QI-37Z.normalTitle" = "一键登录";
 
-/* Class = "UILabel"; text = "无需验证码，快速验证"; ObjectID = "v9b-At-QSJ"; */
-"v9b-At-QSJ.text" = "无需验证码，快速验证";
+/* Class = "UILabel"; text = "一键登录 极速验证"; ObjectID = "v9b-At-QSJ"; */
+"v9b-At-QSJ.text" = "一键登录 极速验证";
