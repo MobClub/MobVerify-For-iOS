@@ -3,7 +3,7 @@
 
 **当前版本**
 
-- iOS v1.0.1
+- iOS v1.1.0
 
 **集成文档**
 
@@ -98,14 +98,24 @@
 
 
 > **目录说明:：**
+```
+> * Sample文件夹 云验证演示demo
 
-> * **Sample文件夹 云验证演示demo（供使用参考）**
-
-> * **SDK下的MobVerify 存放MobVerify.framework-核心功能库(必须)**
-
-> * **SDK下的Required 存放必要依赖库(必须)**
-
-> * SDK 下的MobVerifyUI  为UI库(可选)
+> * SDK下的MobVerify 存放
+      MobVerify.framework-核心功能库(必须)，
+      MobVerify.bundle-资源文件（必须）
+      options存放
+              TYRZNoUISDK.framework（必须）
+              account_verify_sdk_core.framework（必须）
+              EAccountApiSDK.framework （必须）
+              MobVerifyUI存放（不要UI的话，这个文件的资源可以不用导入）
+                    MobVerifyUI.bundle
+                    MobVerifyUI.framework**
+* SDK下的Required 存放
+              MOBFoundation.framework-公共库（必须）
+* SDK下的SMSSDK 存放
+              SMS_SDK.framework-核心功能库（必须）
+```
 
 2.将SDK添加到项目中
 
@@ -180,6 +190,36 @@
     }];
     ```
 
+	iii. 一键登录接口
+```
+	#import <MobVerify/MobVerify.h>
+  #import <MobVerify/MobVerifyConfig.h>
+  
+
+  MobVerifyConfig *config = [[MobVerifyConfig alloc] init];
+    config.rootViewController = self;
+    //config.tmpCode = @"1319972";
+    
+    [MobVerify loginWithConfig:config result:^(NSDictionary *resultData, NSError *error) {
+        
+        if(error)
+        {
+            if(error.code == 6119263)
+            {
+                //取消
+                MobVerifyDemoAlert(@"取消一键登录");
+            }
+            else
+            {
+                MobVerifyDemoAlert(@"%@", error.description);
+            }
+        }
+        else
+        {
+         
+        }
+    }];
+    ```
 	
 ## 三、特殊说明
 
